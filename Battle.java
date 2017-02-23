@@ -17,7 +17,7 @@ public class Battle
             System.out.print("What would you like to do (Attack/Defend): ");
             d = scan.nextLine();
             if(Search.check(d, "attack"))
-            {
+            { 
                 e.changeHealth((int)(Math.random()*-5 - p.getStrength()));
                 p.changeHealth((int)(Math.random()*-5 - e.getStrength()));
             }
